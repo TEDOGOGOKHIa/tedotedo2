@@ -1,0 +1,348 @@
+body {
+  height: 3000px;
+  background-color: #000119;
+  margin: 0;
+  padding: 0;
+}
+
+.rt li {
+  display: inline-flex;
+  margin: 30px;
+  line-height: 12px;
+  margin-left: 90px;
+  font-size: 20px;
+  
+}
+
+
+
+.rt {
+  border: 0.5px solid;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color:#000119;
+}
+
+
+.first {
+  position: relative;
+}
+
+.search-box {
+  display: flex;
+  position: absolute;
+  left: 1130px;
+  top: 20px;
+  background:rgb(255, 238, 0);
+  height: 20px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-txt {
+  border:none ;
+  background:none ;
+  outline:none ;
+  float: left;
+  padding: 0;
+  color:black;
+  font-size: 20px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 230px;
+}
+
+  
+
+
+.icon {
+  position: absolute;
+  color: black;
+  left: 1350px;
+  top: 35px;
+}
+
+
+
+.photo1 {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+
+
+.first h1 {
+  position: absolute;
+  top:60px ;
+  left:350px ;
+  font-size: 25px;
+  color:white;
+}
+.first p {
+  position: absolute;
+  top: 130px;
+  left: 350px;
+  width: 600px;
+  font-size: 15px;
+  color:white;
+  line-height: 170%;
+}
+
+.Log {
+  position: relative;
+}
+.Log {
+  position: absolute;
+  left: 1400px;
+  top: 20px;
+  font-size: 15px;
+  border-radius: 25px;
+  padding: 3px;
+  width: 100px;
+  height: 40px;
+  background:rgb(255, 238, 0); ;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgb(255, 238, 0); ;
+
+  
+ 
+  
+}
+.second {
+  position: relative;
+}
+
+.photo2 {
+  position: absolute;
+  width: 250px;
+  top: 550px;
+  left: 60px;
+  height: 370px;
+  
+}
+
+.second  h1 {
+   position: absolute;
+   left: 350px;
+   top: 550px;
+   font-size: 25px;
+   color: white;
+}
+
+.second p {
+  position: absolute;
+  top: 630px;
+  left: 350px;
+  width: 600px;
+  line-height: 170%;
+  color: white;
+}
+
+.third {
+  position: relative;
+}
+.photo3 {
+  position: absolute;
+  width: 250px;
+  left: 60px;
+  top: 1050px;
+  height: 370px;
+}
+
+.third h1 {
+  position: absolute;
+  top: 1050px;
+  left: 350px;
+  font-size: 25px;
+  color: white;
+}
+
+.third p {
+  position: absolute;
+  top:1100px ;
+  left: 350px;
+  width: 600px;
+  line-height: 170%;
+  color: white;
+}
+
+.first a {
+  position: absolute;
+  top: 400px;
+  left: 350px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
+
+}
+
+.second a {
+  position: absolute;
+  top: 870px;
+  left: 350px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.third a {
+  position: absolute;
+  top: 1400px;
+  left: 350px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.fourth {
+  position: relative;
+}
+
+.fourth img {
+  position: absolute;
+  top: 1550px;
+  width: 250px;
+  left: 60px;
+}
+
+.fourth h1 {
+  position: absolute;
+  top: 1560px;
+  left: 350px;
+  font-size: 25px;
+  color: white;
+
+}
+
+.fourth p {
+  position: absolute;
+  top:1600px ;
+  left: 350px;
+  width: 600px;
+  line-height: 170%;
+  color: white;
+}
+
+.fourth a {
+  position: absolute;
+  top: 1850px;
+  left: 350px;
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.fifth {
+  position: relative;
+}
+.fifth img {
+  position: absolute;
+  top: 2050px;
+  left: 60px;
+  width: 250px;
+}
+
+.fifth h1 {
+  position: absolute;
+  top: 2060px;
+  left: 350px;
+  font-size: 25px;
+  color: white;
+}
+.fifth p {
+  position: absolute;
+  top: 2100px;
+  left: 350px;
+  line-height: 170%;
+  width: 600px;
+  color: white;
+}
+
+.fifth a {
+  position: absolute;
+  top: 2400px;
+  left: 350px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
+}
+
+
+.icon2 {
+  position: absolute;
+  top: 2800px;
+  color: white;
+  left: 500px;
+  font-size: 40px;
+}
+
+.icon3 {
+  position: absolute;
+  top: 2800px;
+  color: white;
+  left: 600px;
+  font-size: 40px;
+
+}
+
+.icon4 {
+  position: absolute;
+  top: 2800px;
+  left: 700px;
+  color: white;
+  font-size: 40px;
+}
+
+.icon5 {
+  position: absolute;
+  top: 2800px;
+  left: 800px;
+  color:white;
+  font-size: 40px;
+}
+
+.icon6 {
+  position: absolute;
+  top: 2800px;
+  left: 900px;
+  color: white;
+  font-size: 40px;
+}
+
+.footer img {
+  position: absolute;
+  width: 70px;
+  top: 2700px;
+  left: 685px;
+}
+
+
+.h1 {
+  position: absolute;
+  top: 2880px;
+  left: 685px;
+  color: white;
+}
+
+.h2 {
+  position: absolute;
+  top: 2900px;
+  left: 685px;
+  color: white;
+}
+
+.h3 {
+  position: absolute;
+  top: 2920px;
+  left: 685px;
+  color: white;
+}
+
+.h4 {
+  position: absolute;
+  top: 2940px;
+  left: 685px;
+  color: white;
+}

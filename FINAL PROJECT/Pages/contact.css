@@ -1,0 +1,203 @@
+body {
+  height: 1000px;
+  background-color: #000119;
+  margin: 0;
+  padding: 0;
+ 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.rt li {
+  display: inline-flex;
+  margin: 30px;
+  line-height: 12px;
+  margin-left: 90px;
+  font-size: 20px;
+  
+}
+.rt {
+  border: 0.5px solid;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color:#000119;
+}
+
+.search-box {
+  display: flex;
+  position: absolute;
+  left: 1130px;
+  top: 20px;
+  background:rgb(255, 238, 0);
+  height: 20px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.search-txt {
+  border:none ;
+  background:none ;
+  outline:none ;
+  float: left;
+  padding: 0;
+  color:black;
+  font-size: 20px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 230px;
+}
+
+.Log {
+  position: relative;
+}
+.Log {
+  position: absolute;
+  left: 1400px;
+  top: 20px;
+  font-size: 15px;
+  border-radius: 25px;
+  padding: 3px;
+  width: 100px;
+  height: 40px;
+  background:rgb(255, 238, 0) ;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgb(255, 238, 0); ;
+  
+}
+.icon {
+  position: absolute;
+  color: black;
+  left: 1350px;
+  top: 35px;
+}
+
+.info {
+  position: relative;
+}
+
+.info h1 {
+  position: absolute;
+  text-align: center;
+  line-height: 170%;
+  color: white;
+  font-size: 35px;
+  top: 100px;
+}
+
+.icon2 {
+  position: absolute;
+  top: 800px;
+  color: white;
+  left: 500px;
+  font-size: 40px;
+}
+
+.icon3 {
+  position: absolute;
+  top: 800px;
+  color: white;
+  left: 600px;
+  font-size: 40px;
+
+}
+
+.icon4 {
+  position: absolute;
+  top: 800px;
+  left: 700px;
+  color: white;
+  font-size: 40px;
+}
+
+.icon5 {
+  position: absolute;
+  top: 800px;
+  left: 800px;
+  color:white;
+  font-size: 40px;
+}
+
+.icon6 {
+  position: absolute;
+  top: 800px;
+  left: 900px;
+  color: white;
+  font-size: 40px;
+}
+
+.footer img {
+  position: absolute;
+  width: 70px;
+  top: 700px;
+  left: 685px;
+}
+
+
+.lol1 {
+  position: absolute;
+  top: 900px;
+  left: 685px;
+  color: white;
+}
+
+.lol2 {
+  position: absolute;
+  top: 920px;
+  left: 685px;
+  color: white;
+}
+
+.lol3{
+  position: absolute;
+  top: 940px;
+  left: 685px;
+  color: white;
+}
+
+.lol4{
+  position: absolute;
+  top:960px;
+  left: 685px;
+  color: white;
+}
+
+.first3 {
+  position: relative;
+}
+
+.first3 h1 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  top: 150px;
+  left: 550px;
+}
+
+.first3 a {
+  position: absolute;
+  font-size: 50px;
+  left: 480px;
+  top:220px ;
+  color: white;
+}
+
+.form {
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  background-color: white;
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  top: 400px;
+  left: 550px;
+  box-shadow: 0 4px 16px white;
+
+}
